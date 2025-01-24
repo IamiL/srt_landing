@@ -24,7 +24,7 @@
     display: none;
 }
 
-@supports (-webkit-appearance: none) {
+@media not all and (min-resolution:.001dpcm) {
     #img2{
         display: block;
     }
