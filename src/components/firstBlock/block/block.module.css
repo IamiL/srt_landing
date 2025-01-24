@@ -1,0 +1,115 @@
+#block1 {
+    margin-top: 10.46875vw;
+    height: 43.1770833333vw;
+    grid-template-rows: 31.5625vw 12.083333333vw;
+}
+
+#block1::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 43.1770833333vw;
+    width: 100%;
+    background: linear-gradient(180deg, var(--color-gradient-start) 0, var(--color-gradient-end) 100%);
+    border-bottom-left-radius: 1.875rem;
+    border-bottom-right-radius: 1.875rem;
+}
+
+#block1 > p {
+    /*margin-top: 7.91666666667vw;*/
+    grid-column-start: 1;
+    grid-column-end: -5;
+}
+
+#block1 > h1 {
+    margin-top: 3.95833333333vw;
+    grid-column-start: 1;
+    grid-column-end: -5;
+}
+
+#video {
+    position: absolute;
+    z-index: 2;
+    max-width: 54vw;
+    height: 45vw;
+    top: 4.21686746988vw;
+    overflow: hidden;
+    right: 0;
+}
+
+#video > video {
+    object-fit: cover;
+    transform: translateX(4.81927710843vw);
+}
+
+@media only screen and (max-width: 1366px) {
+    #block1{
+        row-gap: 7.68229166667vw;
+        grid-template-rows: auto auto;
+    }
+
+    #block1 > h1 {
+        grid-column-start: 1;
+        grid-column-end: -4;
+        margin-top: 5.4165220721vw;
+    }
+
+    #block1 > p {
+        height: 10.546875vw;
+    }
+
+    #block1::before {
+        height: 48.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #block1 {
+        margin-top: 0;
+        grid-template-rows: 37.222222222vw 90vw 15.5555555556vw;
+        height: auto;
+    }
+
+    #block1 > h1 {
+        grid-column-end: 7;
+        width: 88.8888888889vw;
+        margin-top: 16.7777777778vw;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #block1::before {
+        height: 101vw;
+        margin-top: 57.5vw;
+    }
+
+    #block1 > p {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        text-align: center;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #video {
+        position: relative;
+        z-index: 2;
+        display: block;
+        /*top: 57.21686746988vw;*/
+        max-width: 100%;
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 100%;
+    }
+
+    #video > video {
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: -5vw;
+        top: -10vw;
+    }
+}

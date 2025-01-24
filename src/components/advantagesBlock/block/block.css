@@ -1,0 +1,49 @@
+.adli {
+    border-radius: 1.5625vw;
+    background: linear-gradient(180deg, #fff3, #9999991a);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.adli:before {
+    border-radius: 1.5625vw;
+    background: radial-gradient(circle at top left, transparent 0, hsla(0, 0%, 100%, .2) 100%);
+    bottom: 0;
+    content: "";
+    left: 0;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    padding: 0.05208333333vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .adli:before {
+        padding: 0.07vw;
+        border-radius: 3.90625vw;
+    }
+
+    .adli {
+        border-radius: 3.90625vw;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .adli:before {
+        padding: 0.25vw;
+        border-radius: 3.90625vw;
+    }
+
+    .adli {
+        border-radius: 3.90625vw;
+    }
+}

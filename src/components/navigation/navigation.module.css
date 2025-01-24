@@ -1,0 +1,93 @@
+#nav {
+    width: 60.5729166667vw;
+    display: flex;
+    margin-left: 9.375vw;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-inter);
+    font-size: 1vw;
+    font-weight: 300;
+    line-height: 1.21;
+    font-style: normal
+}
+
+#nav1 {
+    width: 7.44791666667vw;
+    margin-right: 6.33333333333vw;
+}
+
+#nav2 {
+    width: 6.71875vw;
+    margin-right: 6.33333333333vw;
+}
+
+#nav3 {
+    width: 11.7708333333vw;
+    margin-right: 5.08333333333vw;
+}
+
+#nav4 {
+    width: 6.92708333333vw;
+    margin-right: 5.41666666667vw;
+}
+
+#nav5 {
+    width: 4.58333333333vw;
+}
+
+#rob2 {
+    display: none;
+}
+
+@media only screen and (max-width: 1366px) {
+
+#nav {
+    margin-left: 4.296875vw;
+}
+
+#nav a {
+    font-size: 1.5625vw;
+}
+
+#rob2 {
+    display: inline;
+}
+
+#rob1 {
+    display: none;
+}
+
+#nav1 {
+    width: auto;
+    margin-right: 2.734375vw;
+}
+
+#nav2 {
+    width: auto;
+    margin-right: 2.86458333333vw;
+}
+
+#nav3 {
+    width: auto;
+    margin-right: 3.25520833333vw;
+}
+
+#nav4 {
+    width: auto;
+    margin-right: 2.86458333333vw;
+}
+
+#nav5 {
+    width: 4.58333333333vw;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+    #nav {
+        display: none;
+    }
+}

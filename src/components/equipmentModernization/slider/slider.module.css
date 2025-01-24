@@ -1,0 +1,91 @@
+#div {
+    width: 25.3333333333vw;
+    height: 29.5vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 6.25vw;
+}
+
+#imgs {
+    width: 21.5604166667vw;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1.5625vw;
+}
+
+#imgs > div {
+    display: flex;
+    transition: transform 0.35s cubic-bezier(0.15, 0.3, 0.25, 1);
+    height: 100%;
+    width: 100%;
+}
+
+#imgs > div > img {
+    width: 100%;
+}
+
+#btns {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#btns > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_right, #btn_left {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btn_right > svg, #btn_left > svg {
+    width: 3.25vw;
+    height: 3.25vw;
+}
+
+
+@media only screen and (max-width: 1366px) {
+
+#div {
+    width: 37.7864583333vw;
+    height: 44.0104166667vw;
+    margin-top: 0.67708333333vw;
+    margin-left: 0;
+}
+
+#imgs {
+    width: 32.9427083333vw;
+}
+
+#btn_right > svg, #btn_left > svg {
+    width: 4.84375vw;
+    height: 4.84375vw;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+    #div {
+        width: 88.9027777778vw;
+        height: 103.611111111vw;
+        margin-top: 11.3888888889vw;
+    }
+
+    #imgs {
+        width: 77.5vw;
+        border-radius: 8.33333333333vw;
+    }
+
+    #btn_right > svg, #btn_left > svg {
+        width: 11.4027777778vw;
+        height: 11.4027777778vw;
+    }
+}

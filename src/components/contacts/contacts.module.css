@@ -1,0 +1,96 @@
+#con {
+    margin-top: 12.8333333333vw;
+}
+
+#con > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5vw;
+}
+
+#con > div > p {
+    text-align: start;
+    width: 61.6666666667vw;
+}
+
+#contacts_list {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 0.75vw;
+}
+
+#contacts_list > h3 {
+    font-family: var(--font-ablation);
+    font-size: 1.33333333vw;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+#contacts_list > a {
+    font-family: var(--font-ablation);
+    font-size: 2vw;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+
+@media only screen and (max-width: 1366px) {
+#con > h2 {
+    font-family: var(--font-ablation2);
+
+}
+    #con {
+        margin-top: 10.15625vw;
+    }
+
+    #con > div {
+        margin-top: 4.5vw;
+    }
+
+    #contacts_list > h3 {
+        font-family: var(--font-ablation2);
+        font-size: 1.82291666667vw;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+
+    #contacts_list > a {
+        font-family: var(--font-ablation2);
+        font-size: 2.60416666667vw;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+
+    #con > div > p {
+        font-size: 1.82291666667vw;
+        width: 53vw;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #con > div {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    #con > div > p {
+        font-size: 3.88888888889vw;
+        width: 100%;
+    }
+
+    #contacts_list > h3 {
+        font-family: var(--font-ablation2);
+        font-size: 3.88888888889vw;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+
+    #contacts_list > a {
+        font-family: var(--font-ablation2);
+        font-size: 5.55555555556vw;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+}

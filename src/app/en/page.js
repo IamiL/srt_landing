@@ -13,18 +13,18 @@ import Header from "@/components/header/header";
 export default function Home() {
     return (
         <>
-            <Header enLan={false}/>
+            <Header enLan={true}/>
             <main>
-                <FirstBlock enLan={false}/>
-                <AdvantagesBlock enLan={false}/>
-                <CapabilitiesBlock enLan={false}/>
-                <IndustrialRobotsBlock enLan={false}/>
-                <ManufacturingBlock enLan={false}/>
-                <AutomationOfTechnologicalProcesses enLan={false}/>
-                <EquipmentModernization enLan={false}/>
-                <Contacts enLan={false}/>
+                <FirstBlock enLan={true}/>
+                <AdvantagesBlock enLan={true}/>
+                <CapabilitiesBlock enLan={true}/>
+                <IndustrialRobotsBlock enLan={true}/>
+                <ManufacturingBlock enLan={true}/>
+                <AutomationOfTechnologicalProcesses enLan={true}/>
+                <EquipmentModernization enLan={true}/>
+                <Contacts enLan={true}/>
             </main>
-            <Footer enLan={false}/>
+            <Footer enLan={true}/>
         </>
     );
 }
