@@ -19,3 +19,16 @@
         transform: scale(1)
     }
 }
+
+#img2{
+    display: none;
+}
+
+@supports (-webkit-appearance: none) {
+    #img2{
+        display: block;
+    }
+    #img1{
+        display: none;
+    }
+}
