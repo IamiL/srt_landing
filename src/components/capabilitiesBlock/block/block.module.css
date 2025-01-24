@@ -23,6 +23,12 @@
     row-gap: 2.25vw;
 }
 
+#ul > a, #ul > li {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-bottom: 2vw;
+}
+
 #li1, #li4 {
     gap: 2.25vw;
 }

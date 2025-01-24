@@ -18,6 +18,6 @@ export default function Header({enLan}) {
                     fill="white"/>
             </svg>
         </Link>
-        <MobileMenu/>
+        <MobileMenu enLan={enLan}/>
     </header>
 }
