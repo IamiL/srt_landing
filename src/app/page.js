@@ -9,22 +9,40 @@ import EquipmentModernization from "@/components/equipmentModernization/block/eq
 import Contacts from "@/components/contacts/contacts";
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
+import Loading from "@/components/loading/loading";
+import Background from "@/components/background/background";
+import localFont from "next/font/local";
+
+const ablation = localFont({src: './AblationBold.otf', variable: '--font-ablation'})
+const ablation2 = localFont({src: './AblationBlack.otf', variable: '--font-ablation2'})
+const sfPro = localFont({src: './SF-Pro-Display-Light.otf', variable: '--font-sfPro'})
+const inter = localFont({src: './Inter.ttf', variable: '--font-inter'})
+
+export const metadata = {
+    title: 'ИРТ — роботизированные технологии',
+    description: 'Мы предлагаем обширный ассортимент промышленных роботов-манипуляторов, обеспечиваем их интеграцию в производственный процесс, выполняем программирование, изготовление необходимого оборудования и оснастки, а также предоставляем всестороннюю техническую и программную поддержку',
+    // viewport: 'width=device-width, initial-scale=1'
+}
 
 export default function Home() {
     return (
-        <>
-            <Header enLan={false}/>
-            <main>
-                <FirstBlock enLan={false}/>
-                <AdvantagesBlock enLan={false}/>
-                <CapabilitiesBlock enLan={false}/>
-                <IndustrialRobotsBlock enLan={false}/>
-                <ManufacturingBlock enLan={false}/>
-                <AutomationOfTechnologicalProcesses enLan={false}/>
-                <EquipmentModernization enLan={false}/>
-                <Contacts enLan={false}/>
-            </main>
-            <Footer enLan={false}/>
-        </>
+        <html lang="ru" className={`${inter.variable} ${ablation.variable} ${ablation2.variable} ${sfPro.variable}`}>
+        <body>
+        <Loading/>
+        <Header enLan={false}/>
+        <main>
+            <FirstBlock enLan={false}/>
+            <AdvantagesBlock enLan={false}/>
+            <CapabilitiesBlock enLan={false}/>
+            <IndustrialRobotsBlock enLan={false}/>
+            <ManufacturingBlock enLan={false}/>
+            <AutomationOfTechnologicalProcesses enLan={false}/>
+            <EquipmentModernization enLan={false}/>
+            <Contacts enLan={false}/>
+        </main>
+        <Footer enLan={false}/>
+        <Background/>
+        </body>
+        </html>
     );
 }
