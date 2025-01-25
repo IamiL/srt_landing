@@ -13,6 +13,13 @@
     animation-fill-mode: forwards;
 }
 
+#loading > div > video {
+    animation-name: load;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 @keyframes load {
     0% {
         opacity: 1;

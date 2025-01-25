@@ -4,7 +4,6 @@ import {useEffect} from "react";
 export default function Closer() {
 
     useEffect(() => {
-        // ✅ Define the async function here
         async function St() {
             document.body.style.overflowY = "hidden";
 
