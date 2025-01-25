@@ -19,17 +19,20 @@
         transform: scale(1)
     }
 }
-
-#img2{
+#img1{
     display: none;
 }
 
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+#img2{
+    display: block;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
     #img2{
-        display: block;
-    }
-    #img1{
         display: none;
     }
-}}
+    #img1{
+        display: block;
+    }
+}

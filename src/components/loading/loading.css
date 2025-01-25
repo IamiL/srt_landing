@@ -27,7 +27,9 @@
     }
 }
 
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-    background: #ff0000;
-}}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
+    #loading {
+        background: red;
+    }
+}
