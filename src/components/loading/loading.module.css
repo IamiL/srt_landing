@@ -19,20 +19,3 @@
         transform: scale(1)
     }
 }
-#img1{
-    display: none;
-}
-
-#img2{
-    display: block;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0)
-and (min-resolution:.001dpcm) {
-    #img2{
-        display: none;
-    }
-    #img1{
-        display: block;
-    }
-}
