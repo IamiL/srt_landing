@@ -26,3 +26,8 @@
         opacity: 0;
     }
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    background: #ff0000;
+}}
