@@ -26,6 +26,7 @@ a {
 
 body {
     -webkit-text-size-adjust: none;
+    text-size-adjust: none;
     background-color: #3E456C;
     color: white;
     display: flex;
