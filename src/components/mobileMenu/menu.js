@@ -51,28 +51,32 @@ function Navigation({enLan, setMenu}) {
     if (enLan === true) {
         return <nav id={styles.nav}>
             <a href={`#${stadvantages.adv}`} className={styles.a} onClick={() => setMenu(false)}>Advantages</a>
-
+            <br/>
 
             <a href={`#${staCap.cap}`} className={styles.a} onClick={() => setMenu(false)}>Capabilities</a>
-
+            <br/>
 
             <a href={`#${staInd.ind}`} className={styles.a} onClick={() => setMenu(false)}>Industrial robots</a>
-
+            <br/>
 
             <a href={`#${staMan.man}`} className={styles.a} onClick={() => setMenu(false)}>Manufacturing</a>
-
+            <br/>
 
             <a href={`#${staCon.con}`} className={styles.a} onClick={() => setMenu(false)}>Contacts</a>
         </nav>
     } else {
         return <nav id={styles.nav}>
             <a href={`#${stadvantages.adv}`} className={styles.a} onClick={() => setMenu(false)}>Преимущества</a>
+            <br/>
 
             <a href={`#${staCap.cap}`} className={styles.a} onClick={() => setMenu(false)}>Возможности</a>
+            <br/>
 
             <a href={`#${staInd.ind}`} className={styles.a} onClick={() => setMenu(false)}>Промышленные роботы</a>
+            <br/>
 
             <a href={`#${staMan.man}`} className={styles.a} onClick={() => setMenu(false)}>Производство</a>
+            <br/>
 
             <a href={`#${staCon.con}`} className={styles.a} onClick={() => setMenu(false)}>Контакты</a>
         </nav>
