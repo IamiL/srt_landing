@@ -24,7 +24,7 @@ const sfPro = localFont({src: '../SF-Pro-Display-Light.otf', variable: '--font-s
 const inter = localFont({src: '../Inter.ttf', variable: '--font-inter'})
 export default function Home() {
     return (
-        <html lang="ru" className={`${inter.variable} ${ablation.variable} ${ablation2.variable} ${sfPro.variable}`}>
+        <html lang="en" className={`${inter.variable} ${ablation.variable} ${ablation2.variable} ${sfPro.variable}`}>
         <body>
         <Loading/>
         <Header enLan={true}/>
