@@ -21,7 +21,7 @@ const inter = localFont({src: './Inter.ttf', variable: '--font-inter'})
 export const metadata = {
     title: 'ИРТ — роботизированные технологии',
     description: 'Мы предлагаем обширный ассортимент промышленных роботов-манипуляторов, обеспечиваем их интеграцию в производственный процесс, выполняем программирование, изготовление необходимого оборудования и оснастки, а также предоставляем всестороннюю техническую и программную поддержку',
-    viewport: 'width=device-width, initial-scale=1'
+    viewport: 'width=device-width, initial-scale=1.0, user-scalable=no'
 }
 
 export default function Home() {
