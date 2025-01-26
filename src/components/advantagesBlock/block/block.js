@@ -24,7 +24,7 @@ export default function AdvantagesBlock({enLan}) {
                     качество производства.</>}</p>
             </li>
             <li id={styles.li2} className={`adli ${styles.ligrid2}`}>
-                <h3 className="head1" id={styles.h22}>{enLan ? 'Performance' : 'Производительность'}</h3>
+                <h3 className="head1" id={styles.h22}>{enLan ? 'Performance' : <>Производитель<span className="brt4"    >-<br/></span>ность</>}</h3>
                 <p className="text4"
                    id={styles.p22}>{enLan ? 'Our technologies operate around the clock, executing assigned tasks with high precision and stability. They don’t require vacations or days off.' : <>Наши
                     технологии<br/> круглосуточно<br className="brt6"/> выполняют<br
