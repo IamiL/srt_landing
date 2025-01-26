@@ -266,7 +266,6 @@
         height: 36.5885416667vw;
         width: auto;
         margin-left: 9.89583333333vw;
-        margin-right: auto;
         margin-bottom: 1.14583333333vw;
         padding: 0;
     }
@@ -302,8 +301,9 @@
 
 #robot1 > .robimg1 > div {
 height: 82.2222222222vw;
-margin-top: 4.44444444444vw;
-margin-left: 23.3333333333vw;
+margin-top: 7.5vw;
+margin-left: 3.33333333333vw;
+    padding: 0;
 }
 
 #robot1 > .robdesc1, #robot2 > .robdesc2 {
