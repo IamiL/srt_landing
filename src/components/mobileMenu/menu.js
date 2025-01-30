@@ -12,14 +12,22 @@ import {createPortal} from "react-dom";
 export default function MobileMenu({enLan}) {
     const [menu, setMenu] = useState(false);
 
-    useEffect(() => {
-        if (menu) {
-            document.body.style.overflowY = "hidden";
-        } else {
-            document.body.style.overflowY = "visible";
-        }
-    }, [menu]);
-
+    // useEffect(() => {
+    //     if (menu) {
+    //         document.body.style.overflowY = "hidden";
+    //     } else {
+    //         document.body.style.overflowY = "visible";
+    //     }
+    // }, [menu]);
+function sMenu () {
+    if (menu) {
+        setMenu(false);
+        document.body.style.overflowY = "visible";
+    } else {
+        setMenu(true);
+        document.body.style.overflowY = "hidden";
+    }
+}
     return <>
         <button className={styles.menuBtn} onClick={() => setMenu(!menu)}>
             <svg viewBox="0 0 30 20" fill="none"
@@ -33,7 +41,7 @@ export default function MobileMenu({enLan}) {
             <div id={styles.menu} className={menu ? styles.active : styles.noActive}>
                 <Navigation enLan={enLan} setMenu={setMenu}/>
                 <div id={styles.div} className="base_grid">
-                    <button className={styles.menuBtn} onClick={() => setMenu(!menu)}>
+                    <button className={styles.menuBtn} onClick={() => sMenu()}>
                         <svg viewBox="0 0 30 20" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path style={{fill: "rgba(62, 69, 108, 1)"}}

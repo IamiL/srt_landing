@@ -7,7 +7,7 @@ export default function ManufacturingBlock({enLan}) {
         <p className="text5">{enLan ? 'Our company is part of ' : <>Наша компания работает в единой связи с<br
             className="brt4"/> ООО </>}
             <a
-                href="https://povpro.ru">{enLan ? '"Volga Production Association №3", LLC' : <>"Поволжское
+                href="https://povpro.ru">{enLan ? '`&quot;Volga Production Association №3`&quot;, LLC' : <>"Поволжское
                 Производственное<br className="brt4"/> объединение №3"</>}</a>
         </p>
         <div id={styles.div} className="base_grid">

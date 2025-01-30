@@ -25,7 +25,7 @@ const inter = localFont({src: '../Inter.ttf', variable: '--font-inter'})
 export default function Home() {
     return (
         <html lang="en" className={`${inter.variable} ${ablation.variable} ${ablation2.variable} ${sfPro.variable}`}>
-        <body>
+        <body style={{overflowY: "hidden"}}>
         <Loading/>
         <Header enLan={true}/>
             <main>

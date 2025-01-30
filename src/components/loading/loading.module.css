@@ -1,6 +1,12 @@
 #div {
-    width: 20.5vw;
+    height: 19.5vw;
+    width: 19.5vw;
+    display: grid;
+    grid-template-rows: 19.5vw;
+    grid-template-columns: 19.5vw;
     animation: pulse 2s ease-in-out infinite;
+    overflow: hidden;
+    place-items: stretch center;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -16,8 +22,8 @@
 }
 
 #div > video {
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
 }
 
 @keyframes pulse {

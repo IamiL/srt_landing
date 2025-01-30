@@ -27,7 +27,7 @@ export const metadata = {
 export default function Home() {
     return (
         <html lang="ru" className={`${inter.variable} ${ablation.variable} ${ablation2.variable} ${sfPro.variable}`}>
-        <body>
+        <body style={{overflowY: "hidden"}}>
         <Loading/>
         <Header enLan={false}/>
         <main>
