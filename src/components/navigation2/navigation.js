@@ -6,7 +6,6 @@ import staMan from "../manufacturing/block/block.module.css"
 import staCon from "../contacts/contacts.module.css"
 
 export default function Navigation({enLan}) {
-    console.log("Navigating... - ", enLan);
     if (enLan === true) {
         return <nav id={styles.nav}>
             <a href={`#${stadvantages.adv}`} id={styles.nav1}>Advantages</a>

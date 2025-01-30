@@ -55,7 +55,6 @@ function sMenu () {
 }
 
 function Navigation({enLan, setMenu}) {
-    console.log("Navigating... - ", enLan);
     if (enLan === true) {
         return <nav id={styles.nav}>
             <a href={`#${stadvantages.adv}`} className={styles.a} onClick={() => setMenu(false)}>Advantages</a>
