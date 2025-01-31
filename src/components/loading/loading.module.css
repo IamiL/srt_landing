@@ -13,13 +13,17 @@
     #div {
         height: 30vw;
         width: 30vw;
+        grid-template-rows: 30vw;
+        grid-template-columns: 30vw;
     }
 }
 
 @media only screen and (max-width: 767px) {
     #div {
+        height: 60vw;
         width: 60vw;
-        width: 60vw;
+        grid-template-rows: 60vw;
+        grid-template-columns: 60vw;
     }
 }
 
