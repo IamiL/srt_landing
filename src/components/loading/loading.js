@@ -39,6 +39,6 @@ export default function Loading() {
                     style={{fill: "#3E456C"}}/>
             </svg>
         </div>
-        {/*<Closer/>*/}
+        <Closer/>
     </div>
 }
