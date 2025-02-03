@@ -6,6 +6,10 @@
     /*margin-left: 0.41666vw;*/
 }
 
+#logo > svg {
+    height: 100%;
+}
+
 #lan_btn {
     /*margin-left: 6.61458333vw;*/
     grid-column-end: -1;
