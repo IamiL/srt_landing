@@ -89,6 +89,8 @@
     #lan_btn {
         width: 10vw;
         height: 7vw;
+        display: flex;
+        align-items: center;
     }
 
     #lan_btn > svg {
