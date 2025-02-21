@@ -1,1 +1,13 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/src/app/page": [
+      "static/media/AblationBold-s.p.d7b7c1c3.otf",
+      "static/media/AblationBlack-s.p.a9a2438e.otf",
+      "static/media/SF_Pro_Display_Light-s.p.69316c6c.otf",
+      "static/media/Inter-s.p.0cee383c.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
