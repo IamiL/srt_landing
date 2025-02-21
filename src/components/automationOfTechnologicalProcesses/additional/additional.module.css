@@ -43,6 +43,20 @@
 
 #span2 {
     overflow: hidden;
+    align-self: center;
+    margin-top: 0.2vw;
+}
+
+#span2 > div {
+    display: flex;
+    align-items: end;
+    align-content: end;
+    height: 1.4vw;
+}
+
+#span2 > div > svg {
+    height: 100%;
+    color: white;
 }
 
 #btn:hover > #span2 > .div2 {
@@ -63,26 +77,46 @@
     font-family: Helvetica;
     font-size: 1.6vw;
     line-height: 1;
-    transform: translateX(-2vw);
+    transform: translateX(-1.5vw);
     transition: transform 0.1s ease-in-out;
     text-align: end;
 }
 
 @media only screen and (max-width: 1366px) {
-    #btn{
+    #btn {
         margin-top: 1.5vw;
         font-size: 2vw;
-
     }
 
+    #span2 > div {
+        height: 1.9vw;
+    }
+
+    #span2 {
+        margin-top: 0.25vw;
+    }
+
+    .div2 {
+        transform: translateX(-2.2vw);
+    }
 }
 
 
 @media only screen and (max-width: 767px) {
-    #btn{
+    #btn {
         margin-top: 5vw;
         font-size: 4vw;
-
     }
 
+    #span2 > div {
+        height: 3.3vw;
+    }
+
+    #span2 {
+        margin-top: 0.6vw;
+    }
+
+    .div2 {
+        transform: translateX(-3.6vw);
+    }
 }

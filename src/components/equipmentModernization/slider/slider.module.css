@@ -53,22 +53,22 @@
 
 
 @media only screen and (max-width: 1366px) {
+    #div {
+        width: 37.7864583333vw;
+        height: 44.0104166667vw;
+        margin-top: 0.67708333333vw;
+        margin-left: 0;
+    }
 
-#div {
-    width: 37.7864583333vw;
-    height: 44.0104166667vw;
-    margin-top: 0.67708333333vw;
-    margin-left: 0;
-}
+    #imgs {
+        width: 32.9427083333vw;
+        border-radius: 3.90625vw;
+    }
 
-#imgs {
-    width: 32.9427083333vw;
-}
-
-#btn_right > svg, #btn_left > svg {
-    width: 4.84375vw;
-    height: 4.84375vw;
-}
+    #btn_right > svg, #btn_left > svg {
+        width: 4.84375vw;
+        height: 4.84375vw;
+    }
 
 }
 

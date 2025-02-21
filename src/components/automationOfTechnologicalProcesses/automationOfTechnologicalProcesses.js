@@ -1,8 +1,9 @@
 import styles from "./automationOfTechnologicalProcesses.module.css"
 import Additional from "@/components/automationOfTechnologicalProcesses/additional/additional";
+import './aut.css'
 
 export default function AutomationOfTechnologicalProcesses({enLan}) {
-    return <section id={styles.aut}>
+    return <section id="automation">
         <h2>{enLan ? 'Automation of Technological Processes' : 'Автоматизация технологических процессов'}</h2>
         <div className="base_grid" id={styles.div}>
             <div className="adli">
@@ -47,7 +48,7 @@ export default function AutomationOfTechnologicalProcesses({enLan}) {
                         необходимость в постоянном присутствии персонала отпала. Единственное<br
                         className="brt1"/> участие
                         человека сводится к
-                        загрузке и<br className="brt5" /> выгрузке, что требуется лишь раз<br
+                        загрузке и<br className="brt5"/> выгрузке, что требуется лишь раз<br
                         className="brt1"/> в четыре дня.
                     </>}
                 <br/>

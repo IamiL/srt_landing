@@ -1,0 +1,46 @@
+#contacts {
+    margin-top: 12.8333333333vw;
+}
+
+#contacts > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5vw;
+}
+
+#contacts > div > p {
+    text-align: start;
+    width: 61.6666666667vw;
+}
+
+@media only screen and (max-width: 1366px) {
+    #contacts > h2 {
+        font-family: var(--font-ablation2);
+
+    }
+
+    #contacts {
+        margin-top: 10.15625vw;
+    }
+
+    #contacts > div {
+        margin-top: 4.5vw;
+    }
+
+    #contacts > div > p {
+        font-size: 1.82291666667vw;
+        width: 53vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #contacts > div {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    #contacts > div > p {
+        font-size: 3.88888888889vw;
+        width: 100%;
+    }
+}

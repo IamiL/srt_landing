@@ -1,11 +1,3 @@
-#aut {
-    margin-top: 7.5vw;
-}
-
-#aut > h2 {
-    font-family: var(--font-ablation2);
-}
-
 #div {
     margin-top: 5.25vw;
 }
@@ -28,18 +20,6 @@
 }
 
 @media only screen and (max-width: 1366px) {
-
-    #aut {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5vw;
-    }
-
-    #aut > h2 {
-        width: 79.4270833333vw;
-    }
-
     #div {
         height: 54.8177083333vw;
     }
@@ -71,14 +51,6 @@
     #div > p {
         grid-column-start: 1;
         grid-column-end: 7;
-    }
-
-    #aut {
-        margin-top: 10vw;
-    }
-
-    #aut > h2 {
-        line-height: 1.1;
     }
 
     #div {

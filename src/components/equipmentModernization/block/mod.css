@@ -1,0 +1,44 @@
+#modernization {
+    margin-top: 9vw;
+}
+
+#modernization > h2 {
+    height: 4.16666666667vw;
+    font-family: var(--font-ablation2);
+}
+
+#modernization > p {
+    margin-top: 1.41666666667vw;
+}
+
+#modernization > div {
+    margin-top: 6.5vw;
+}
+
+@media only screen and (max-width: 1366px) {
+    #modernization {
+        margin-top: 12.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #modernization > h2 {
+        width: 58.59375vw;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #modernization {
+        margin-top: 13.5vw;
+    }
+
+    #modernization > h2 {
+        line-height: 1.1;
+    }
+
+    #modernization > p {
+        margin-top: 3vw;
+    }
+}

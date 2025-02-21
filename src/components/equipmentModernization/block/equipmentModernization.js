@@ -1,8 +1,9 @@
 import Slider from "@/components/equipmentModernization/slider/slider";
 import styles from "./equipmentModernization.module.css";
+import './mod.css'
 
 export default function EquipmentModernization({enLan}) {
-    return <section id={styles.mod}>
+    return <section id="modernization">
         <h2>
             {enLan ? 'Equipment Modernization' : 'Модернизация оборудования'}
         </h2>
@@ -22,16 +23,18 @@ export default function EquipmentModernization({enLan}) {
                         className="brt5"/> станке
                         2А622Ф4.</>}
                 <br/>
-                <br />
+                <br/>
 
                 {enLan ? ' We designed and manufactured an adapter, bellows coupling components, and other necessary fasteners at our facilities. After testing, the machine was successfully delivered to the customer, who plans to replace all remaining motors similarly!' :
-                    <> Были спроектированы и изготовлены<br className="brt4"/> на собственном производстве переходной адаптер, детали
+                    <> Были спроектированы и изготовлены<br className="brt4"/> на собственном производстве переходной
+                        адаптер, детали
                         сильфонной
                         муфты и другие<br className="brt6"/> необходимые крепежные элементы. После тестирования<br
                             className="brt5"/> станок
                         был
                         успешно сдан заказчику,
-                        который планирует по этой же<br className="brt4"/> схеме<br className="brt1"/> поменять все остальные двигатели!
+                        который планирует по этой же<br className="brt4"/> схеме<br className="brt1"/> поменять все
+                        остальные двигатели!
                     </>
                 }
             </p>

@@ -1,7 +1,8 @@
 import styles from './contacts.module.css';
+import './contacts.css'
 
 export default function Contacts({enLan}) {
-    return <section id={styles.con}>
+    return <section id="contacts">
         <h2>
             {enLan ? 'Join Us!' :
                 'Присоединяйтесь к нам!'}

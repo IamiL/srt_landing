@@ -8,7 +8,8 @@ export default function Robot4({enLan}) {
         <div className="robdesc2">
             <p className="size1333">{enLan ? 'Rigid structure, high stability, minimal torque fluctuations.' : <>
                 Жёсткая конструкция,
-                высокая стабильность, незначительные<br className="brt1"/> колебания крутящего<br className="brt4"/> момента.
+                высокая стабильность, незначительные<br className="brt1"/> колебания крутящего<br
+                className="brt4"/> момента.
             </>}
                 <br/>
                 <br/>

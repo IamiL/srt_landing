@@ -1,0 +1,30 @@
+#automation {
+    margin-top: 7.5vw;
+}
+
+#automation > h2 {
+    font-family: var(--font-ablation2);
+}
+
+@media only screen and (max-width: 1366px) {
+    #automation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vw;
+    }
+
+    #automation > h2 {
+        width: 79.4270833333vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #automation {
+        margin-top: 10vw;
+    }
+
+    #automation > h2 {
+        line-height: 1.1;
+    }
+}

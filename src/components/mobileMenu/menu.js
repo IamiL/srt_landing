@@ -1,11 +1,6 @@
 "use client";
 
 import styles from "./menu.module.css"
-import stadvantages from "@/components/advantagesBlock/block/block.module.css";
-import staCap from "@/components/capabilitiesBlock/block/block.module.css";
-import staInd from "@/components/industrialRobotsBlock/block/block.module.css";
-import staMan from "@/components/manufacturing/block/block.module.css";
-import staCon from "@/components/contacts/contacts.module.css";
 import {useEffect, useState} from "react";
 import {createPortal} from "react-dom";
 import Link from "next/link";
@@ -68,35 +63,35 @@ export default function MobileMenu({enLan}) {
 function Navigation({enLan, setMenu}) {
     if (enLan === true) {
         return <nav id={styles.nav}>
-            <a href={`#${stadvantages.adv}`} className={styles.a} onClick={() => setMenu(false)}>Advantages</a>
+            <a href={`#advantages`} className={styles.a} onClick={() => setMenu(false)}>Advantages</a>
             <br/>
 
-            <a href={`#${staCap.cap}`} className={styles.a} onClick={() => setMenu(false)}>Capabilities</a>
+            <a href={`#capabilities`} className={styles.a} onClick={() => setMenu(false)}>Capabilities</a>
             <br/>
 
-            <a href={`#${staInd.ind}`} className={styles.a} onClick={() => setMenu(false)}>Industrial robots</a>
+            <a href={`#industrial_robots`} className={styles.a} onClick={() => setMenu(false)}>Industrial robots</a>
             <br/>
 
-            <a href={`#${staMan.man}`} className={styles.a} onClick={() => setMenu(false)}>Manufacturing</a>
+            <a href={`#manufacturing`} className={styles.a} onClick={() => setMenu(false)}>Manufacturing</a>
             <br/>
 
-            <a href={`#${staCon.con}`} className={styles.a} onClick={() => setMenu(false)}>Contacts</a>
+            <a href={`#contacts`} className={styles.a} onClick={() => setMenu(false)}>Contacts</a>
         </nav>
     } else {
         return <nav id={styles.nav}>
-            <a href={`#${stadvantages.adv}`} className={styles.a} onClick={() => setMenu(false)}>Преимущества</a>
+            <a href={`#advantages`} className={styles.a} onClick={() => setMenu(false)}>Преимущества</a>
             <br/>
 
-            <a href={`#${staCap.cap}`} className={styles.a} onClick={() => setMenu(false)}>Возможности</a>
+            <a href={`#capabilities`} className={styles.a} onClick={() => setMenu(false)}>Возможности</a>
             <br/>
 
-            <a href={`#${staInd.ind}`} className={styles.a} onClick={() => setMenu(false)}>Промышленные роботы</a>
+            <a href={`#industrial_robots`} className={styles.a} onClick={() => setMenu(false)}>Промышленные роботы</a>
             <br/>
 
-            <a href={`#${staMan.man}`} className={styles.a} onClick={() => setMenu(false)}>Производство</a>
+            <a href={`#manufacturing`} className={styles.a} onClick={() => setMenu(false)}>Производство</a>
             <br/>
 
-            <a href={`#${staCon.con}`} className={styles.a} onClick={() => setMenu(false)}>Контакты</a>
+            <a href={`#contacts`} className={styles.a} onClick={() => setMenu(false)}>Контакты</a>
         </nav>
     }
 }

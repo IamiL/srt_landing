@@ -1,20 +1,3 @@
-#mod {
-    margin-top: 9vw;
-}
-
-#mod > h2 {
-    height: 4.16666666667vw;
-    font-family: var(--font-ablation2);
-}
-
-#mod > p {
-    margin-top: 1.41666666667vw;
-}
-
-#mod > div {
-    margin-top: 6.5vw;
-}
-
 #div > div {
     grid-column-start: 1;
     grid-column-end: 6;
@@ -28,18 +11,6 @@
 }
 
 @media only screen and (max-width: 1366px) {
-    #mod {
-        margin-top: 12.5vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #mod > h2 {
-        width: 58.59375vw;
-        height: auto;
-    }
-
     #div > p {
         grid-column-start: 7;
         grid-column-end: -1;
@@ -60,17 +31,5 @@
         width: 100%;
         margin-top: 7.5vw;
         font-size: 3.88888888889vw;
-    }
-
-    #mod {
-        margin-top: 13.5vw;
-    }
-
-    #mod > h2 {
-        line-height: 1.1;
-    }
-
-    #mod > p {
-        margin-top: 3vw;
     }
 }
