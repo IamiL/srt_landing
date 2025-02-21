@@ -1,6 +1,6 @@
 #div {
     width: 25.3333333333vw;
-    height: 29.5vw;
+    height: 28.8vw;
     display: flex;
     justify-content: center;
     position: relative;
@@ -11,7 +11,7 @@
     width: 21.5604166667vw;
     height: 100%;
     overflow: hidden;
-    border-radius: 1.5625vw;
+    border-radius: 2.5vw;
 }
 
 #imgs > div {
